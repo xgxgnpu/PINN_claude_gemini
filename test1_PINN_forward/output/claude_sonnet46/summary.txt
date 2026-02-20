@@ -1,0 +1,49 @@
+=================================================================
+   PINNs  High-Frequency Heat Equation  Summary
+=================================================================
+
+  PDE        : u_t - 0.01*u_xx = 0
+  Domain     : x in [0,1],  t in [0,1]
+  IC         : u(x,0) = sin(5*pi*x)
+  BC         : u(0,t) = u(1,t) = 0
+  Exact      : sin(5*pi*x)*exp(-0.01*(5*pi)^2*t)
+
+  Network    : 6 hidden layers x 64 neurons, Tanh
+  Parameters : 21,057
+
+  Collocation: N_res=5000, N_ic=300, N_bc=300x2
+  Test grid  : 100x100
+
+  [Phase 1] Adam
+    Iterations  : 20000
+    LR (init)   : 0.001
+    LR schedule : StepLR(step=5000, gamma=0.5)
+    Time        : 308.3 s
+    L2 after    : 1.165500e-03
+
+  [Phase 2] L-BFGS
+    Max iters   : 10000
+    Actual steps: 10000
+    Line search : strong_wolfe
+    Time        : 1795.2 s
+    L2 after    : 4.831805e-04
+
+  Device       : cuda
+  Total time   : 2104.6 s
+
+  >>> Final L2 relative error : 4.831805e-04 <<<
+
+  Saved files
+  ----------------------------------------
+  pinn_heat_results/loss_history.txt
+  pinn_heat_results/loss_history_phases.txt
+  pinn_heat_results/prediction.txt
+  pinn_heat_results/exact_solution.txt
+  pinn_heat_results/error_map.txt
+  pinn_heat_results/model.pth
+  pinn_heat_results/loss_curves.png
+  pinn_heat_results/solution_slices.png
+  pinn_heat_results/solution_2d.png
+  pinn_heat_results/solution_3d.png
+  pinn_heat_results/l2_convergence.png
+  pinn_heat_results/summary.txt
