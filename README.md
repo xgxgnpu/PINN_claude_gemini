@@ -125,15 +125,15 @@ Both models received the identical prompt (translated):
 
 The following publications by the repository author are related to neural network methods for solving PDEs:
 
-1. Z. Zhang, **X. Xiong**, S. Zhang, W. Wang, X. Yang, S. Zhang, C. Yang, "[A pseudo-time stepping and parameterized physics-informed neural network framework for Navier–Stokes equations](https://pubs.aip.org/aip/pof/article/37/3/033612/3338823)," *Physics of Fluids*, vol. 37, no. 3, p. 033612, 2025.
+1. **X. Xiong**, K. Lu, Z. Zhang, Z. Zeng, S. Zhou, R. Hu, Z. Deng, "[High-frequency flow field super-resolution via physics-informed hierarchical adaptive Fourier feature networks](https://pubs.aip.org/aip/pof/article/37/9/097111/3361448)," *Physics of Fluids*, vol. 37, no. 9, p. 097111, 2025.
 
-2. **X. Xiong**, K. Lu, Z. Zhang, Z. Zeng, S. Zhou, R. Hu, Z. Deng, "[High-frequency flow field super-resolution via physics-informed hierarchical adaptive Fourier feature networks](https://pubs.aip.org/aip/pof/article/37/9/097111/3361448)," *Physics of Fluids*, vol. 37, no. 9, p. 097111, 2025.
+2. **X. Xiong**, Z. Zhang, R. Hu, C. Gao, Z. Deng, "[Separated-variable spectral neural networks: a physics-informed learning approach for high-frequency PDEs](https://arxiv.org/abs/2508.00628)," *arXiv preprint arXiv:2508.00628*, 2025.
 
-3. **X. Xiong**, Z. Zhang, R. Hu, C. Gao, Z. Deng, "[Separated-variable spectral neural networks: a physics-informed learning approach for high-frequency PDEs](https://arxiv.org/abs/2508.00628)," *arXiv preprint arXiv:2508.00628*, 2025.
+3. **X. Xiong**, K. Lu, Z. Zhang, Z. Zeng, S. Zhou, Z. Deng, R. Hu, "[J-PIKAN: A physics-informed KAN network based on Jacobi orthogonal polynomials for solving fluid dynamics](https://www.sciencedirect.com/science/article/pii/S1007570425008238)," *Communications in Nonlinear Science and Numerical Simulation*, p. 109414, 2025.
 
-4. Z. Zhang, **X. Xiong**, S. Zhang, W. Wang, Y. Zhong, C. Yang, X. Yang, "[Legend-KINN: A Legendre Polynomial-Based Kolmogorov-Arnold-Informed Neural Network for Efficient PDE Solving](https://www.sciencedirect.com/science/article/pii/S0957417425034542)," *Expert Systems with Applications*, p. 129839, 2025.
+4. Z. Zhang, **X. Xiong**, S. Zhang, W. Wang, X. Yang, S. Zhang, C. Yang, "[A pseudo-time stepping and parameterized physics-informed neural network framework for Navier–Stokes equations](https://pubs.aip.org/aip/pof/article/37/3/033612/3338823)," *Physics of Fluids*, vol. 37, no. 3, p. 033612, 2025.
 
-5. **X. Xiong**, K. Lu, Z. Zhang, Z. Zeng, S. Zhou, Z. Deng, R. Hu, "[J-PIKAN: A physics-informed KAN network based on Jacobi orthogonal polynomials for solving fluid dynamics](https://www.sciencedirect.com/science/article/pii/S1007570425008238)," *Communications in Nonlinear Science and Numerical Simulation*, p. 109414, 2025.
+5. Z. Zhang, **X. Xiong**, S. Zhang, W. Wang, Y. Zhong, C. Yang, X. Yang, "[Legend-KINN: A Legendre Polynomial-Based Kolmogorov-Arnold-Informed Neural Network for Efficient PDE Solving](https://www.sciencedirect.com/science/article/pii/S0957417425034542)," *Expert Systems with Applications*, p. 129839, 2025.
 
 6. Z. Zhang, **X. Xiong**, S. Zhang, Y. Zhao, X. Yang, "[Physics-Informed Neural Networks and Neural Operators for Parametric PDEs: A Human-AI Collaborative Analysis](https://arxiv.org/abs/2511.04576)," *arXiv preprint arXiv:2511.04576*, 2025.
 
