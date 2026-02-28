@@ -121,9 +121,9 @@ Both models received the identical prompt (translated):
 - Identical prompt for both models, single-shot generation, no human edits
 - Gemini 3.1 Pro (released 2026-02-19) | Claude Sonnet 4.6 (released 2026-02-17)
 
-## Author's Related Publications
+## Team's Related Publications
 
-The following publications by the repository author are related to neural network methods for solving PDEs:
+The following publications by the team are related to neural network methods for solving PDEs:
 
 1. **X. Xiong**, K. Lu, Z. Zhang, Z. Zeng, S. Zhou, R. Hu, Z. Deng, "[High-frequency flow field super-resolution via physics-informed hierarchical adaptive Fourier feature networks](https://pubs.aip.org/aip/pof/article/37/9/097111/3361448)," *Physics of Fluids*, vol. 37, no. 9, p. 097111, 2025.
 
